@@ -7,32 +7,32 @@ if ( firstQuestion === '5' || firstQuestion.toLowerCase() === 'five' ) {
 correct += 1;
 }
 // question 2
-var secondQuestion = prompt('Is the Bronx one of them?');
+var secondQuestion = prompt('Is the Bronx one of them? Yes/No?');
 if ( secondQuestion.toLowerCase() === 'yes' ) {
 correct += 1;
 }
 // question 3
-var thirdQuestion = prompt('Is Brooklyn one of them?');
+var thirdQuestion = prompt('Is Brooklyn one of them?  Yes/No?');
 if ( thirdQuestion.toLowerCase() === 'yes' ) {
 correct += 1;
 }
 // question 4
-var fourthQuestion = prompt( "Is Manhattan one of them?");
+var fourthQuestion = prompt('Is Manhattan one of them?  Yes/No?');
 if ( fourthQuestion.toLowerCase() === 'yes' ) { 
 correct += 1;
 }
 // question 5 
-var fifthQuestion = prompt( "Is Queens one of them?");
+var fifthQuestion = prompt('Is Queens one of them?  Yes/No?');
 if ( fifthQuestion.toLowerCase() === 'yes' ) { 
 correct += 1;
 }
 // question 6
-var sixthQuestion = prompt('Is Staten Island one of them?');
+var sixthQuestion = prompt('Is Staten Island one of them?  Yes/No?');
 if ( sixthQuestion.toLowerCase() === 'yes' ) {
 correct += 1; 
 }
 // question 7
-var seventhQuestion = prompt("Is Long Island one of them?");
+var seventhQuestion = prompt('Is Long Island one of them?  Yes/No?');
 if ( seventhQuestion.toLowerCase() === 'no' ) { 
 correct += 1;    
 }
